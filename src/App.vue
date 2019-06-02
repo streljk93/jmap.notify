@@ -340,7 +340,7 @@
                 stateHistory: [],
             };
         },
-        
+
         computed: {
             currentStateObj() {
                 return this.state.find(v => v.id === this.currentState);
