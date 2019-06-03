@@ -21,12 +21,15 @@
                 начать сначала
             </v-btn>
         </v-flex>
-        <!--<v-flex pl-2 pb-3>-->
-            <!--<v-btn outline block>-->
-                <!--<v-icon class="pr-1">help</v-icon>-->
-                <!--помощь-->
-            <!--</v-btn>-->
-        <!--</v-flex>-->
+        <v-flex pl-2 pb-3>
+            <v-btn
+                outline
+                block
+                @click="$emit('help')">
+                <v-icon class="pr-1">help</v-icon>
+                помощь
+            </v-btn>
+        </v-flex>
     </v-layout>
 </template>
 
